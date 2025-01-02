@@ -15,7 +15,9 @@ const App = () => {
       <div className="relative z-0 bg-primary text-white">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar></Navbar>
+          <div className="mt-[75px] md:mt-0">
           <Hero></Hero>
+          </div>
         </div>
         <About></About>
         <Experience></Experience>

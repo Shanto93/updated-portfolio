@@ -6,6 +6,9 @@ export default {
   mode: "jit",
   theme: {
     extend: {
+      animation: {
+        'spin-slow': 'spin 50s linear infinite',
+      },
       colors: {
         primary: "#050816",
         secondary: "#aaa6c3",
